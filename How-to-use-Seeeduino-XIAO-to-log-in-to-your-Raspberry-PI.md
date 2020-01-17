@@ -46,14 +46,23 @@ The following figure is the pin map of Seeeduino XIAO:
 
 ### Software
 
-Find the config.txt file on the TF card of the Raspberry Pi official system, and add a sentence at the end:
+Find the config.txt file on the TF card where the Raspberry Pi official system is installed, and add a sentence at the end:
 
 ```c
 enable_uart=1
 ```
+**Configuring Seeeduino XIAO**
+
+Open [Arduino IDE](https://www.arduino.cc/en/Main/Software) 
+
+  
 
 
-After saving, first open the serial port communication software on your PC and set the serial port baud rate to 115200. This is the default serial port baud rate. It can be communicated correctly if it is consistent with the serial port baud rate of the Raspberry Pi. After inserting the card to start the Raspberry Pi, you will see the startup information in the terminal window.
+
+first open the serial port communication software on your PC and set the serial port baud rate to 115200. This is the default serial port baud rate. It can be communicated correctly if it is consistent with the serial port baud rate of the Raspberry Pi. After inserting the card to start the Raspberry Pi, you will see the startup information in the terminal window.
+
+
+
 
 
 
